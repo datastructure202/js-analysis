@@ -6,8 +6,6 @@ const readFile = f => new Promise((resolve,reject) =>
     fs.readFile(f,'utf-8', (e,d) => e ? reject(e) : resolve(d) ) )
 
 
-const variableDec = []
-const functionExp = []
 const content     = {}
 const allLinks    = []
 const contentFirstParty = {}
